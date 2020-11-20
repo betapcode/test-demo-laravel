@@ -7,4 +7,4 @@ before_script:
 script:
 #  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage .
 #  - ./vendor/bin/phpcbf --ignore=vendor,bootstrap/cache/,storage .
-  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage -p .d
+  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage -p app/
