@@ -4,7 +4,7 @@ php:
 before_script:
   - composer self-update
   - composer install
-  - chmod +x pre-commit.sh
+  - chmod +x pre-commit-2.sh
 script:
 #  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage .
 #  - ./vendor/bin/phpcbf --ignore=vendor,bootstrap/cache/,storage .
