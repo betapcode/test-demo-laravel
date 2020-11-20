@@ -9,4 +9,5 @@ script:
 #  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage .
 #  - ./vendor/bin/phpcbf --ignore=vendor,bootstrap/cache/,storage .
 #  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage -p app/
-  - ./pre-commit.sh
+#  - ./pre-commit.sh
+  - ./vendor/bin/phpcs --ignore=vendor,bootstrap/cache/,storage --standard=PSR2 --encoding=utf-8 -n -p .
